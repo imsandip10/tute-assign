@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+.wrapper{ width: 100%;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+.side-bar{ min-height: 750px; width: 20%; background: black; position: relative; }
+.btn-read{ border: cornsilk 1x solid ; 
+    margin-top: 40px;
+    margin-left: 50%;
+    height: 35px;
+    width: 100px;
+    color: aliceblue;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.head{ height:180px; background: antiquewhite; width: 78.5%;}
+.img{ width: 30%; position: relative; margin-top: 8px; margin-left: 10px;}
+.word{ width: 50%;position: absolute; left: 45%; top: 70px;}
+.mid-bar{
+    background: #e5eecc;
+    height: 550px;
+    position: absolute;
+    width: 78%;
+    left: 21.8%;
+    top: 200px;
+}
+.mid-bar ul li{
+     list-style: none;
+      padding: 12px;
+       color: rgb(239, 245, 245); 
+       background-color: white; 
+       margin: 10px;} 
+       .mid-bar ul li{
+           color: black;
+       }
+ .panel1, .flip1 {
+        padding: 5px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+      
+.panel1 {
+        padding: 10px;
+        display: none;
+      }
+.panel2, .flip2 {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+        
+      }
+      
+.panel2 {
+        padding: 10px;
+        display: none;
+      }
+.panel3, .flip3 {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+      
+.panel3 {
+        padding: 10px;
+        display: none;
+      }
+.panel4, .flip4 {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+      
+.panel4 {
+        padding: 10px;
+        display: none;
+      }
+.panel5, .flip5 {
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+      
+.panel5 {
+        padding: 10px;
+        display: none;
+      }
+
+.btn {
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 99%;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}

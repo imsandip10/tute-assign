@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Website Header </title>
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+crossorigin="anonymous">
+
+<script src="jquery.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $(".flip1").click(function(){
+    $(".panel1").slideToggle("slow");
+  });
+});
+</script>
+<script> 
+    $(document).ready(function(){
+      $(".flip2").click(function(){
+        $(".panel2").slideToggle("slow");
+      });
+    });
+</script>
+<script> 
+    $(document).ready(function(){
+      $(".flip3").click(function(){
+        $(".panel3").slideToggle("slow");
+      });
+    });
+</script>
+<script> 
+    $(document).ready(function(){
+      $(".flip4").click(function(){
+        $(".panel4").slideToggle("slow");
+      });
+    });
+</script>
+<script> 
+    $(document).ready(function(){
+      $(".flip5").click(function(){
+        $(".panel5").slideToggle("slow");
+      });
+    });
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="side-bar fl">
+        <button class="btn-read"><h2> < Back </h2></button>
+    </div>
+    <div class="head fr">
+        <div class="img fl">
+            <img src="image/Introduction-to-Machine-Learning.png" height="150px" >
+
+        </div>
+        <div class="word fr">
+                <h1>Introduction to Machine learning</h1>
+                <p>7% complete</p>
+                
+        </div>
+        
+    </div>
+    <div class="mid-bar ">
+        <div >
+        <ul>
+            <li>
+                <h1 class="flip1" >1. Introduction to Machine Learning</h1>
+                <p class="panel1"> <i class="far fa-play-circle"><a href="first.html"> what is machine learning</a></i></p>
+            </li>
+            <li>
+                <h1 class="flip2" >2.Concepts of Machine Learning</h1>
+                <p  class="panel2"><i class="far fa-play-circle"><a href="second.html"> Rent Cost of Flat</a></i></p>
+                <p  class="panel2"><i class="far fa-play-circle"><a href="second.html">  Linear Regression</a></i></p>
+                <p  class="panel2"><i class="far fa-play-circle"><a href="second.html">   Polymer Regression</a></i></p>
+                <p  class="panel2"> <i class="far fa-play-circle"><a href="second.html"> Basics of Machine Learning</a></i></p>
+            </li>
+            <li>
+                 <h1 class="flip3"> 3. Application of Machine Learning</h1>
+                 <p class="panel3"><i class="far fa-play-circle"><a href="third.html"> Spam Email Filter</a></i></p>
+                 <p class="panel3"><i class="far fa-play-circle"><a href="third.html">Recommendation of App</a></i></p>
+            </li>
+            <li>
+                <h1 class="flip4">4. Neural Network and Deep Learning </h1>
+                 <p class="panel4"><i class="far fa-play-circle"><a href="fourth.html"> Application of ML in college admission</a></i></p>
+                 <p class="panel4"><i class="far fa-play-circle"><a href="fourth.html"> Application of ML : college admission </a></i></p>
+                 <p class="panel4"><i class="far fa-play-circle"><a href="fourth.html"> Neural network </a></i></p>
+                 <p class="panel4"><i class="far fa-play-circle"><a href="fourth.html"> recognisation handwritting digit</a></i></p>
+            </li>
+            <li>
+                    <h1 class="flip5">5.Application of deep Learning</h1>
+                    <p class="panel5"><i class="far fa-play-circle"> Deep learning</i></p>
+            </li>
+            <button class="btn"><h1 >Get Certificate</h1></button>
+        </ul>
+        </div>
+
+    </div>
+</div>
+</div>
